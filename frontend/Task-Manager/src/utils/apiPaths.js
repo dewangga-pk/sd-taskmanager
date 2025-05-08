@@ -15,7 +15,7 @@ export const API_PATHS = {
     DELETE_USER: (userId) => `/api/users/${userId}`, // Delete a user
   },
 
-  TASK: {
+  TASKS: {
     GET_DASHBOARD_DATA: "/api/tasks/dashboard-data", // Get Dashboard Data
     GET_USER_DASHBOARD_DATA: "/api/tasks/user-dashboard-data", // Get User Dashboard Data
     GET_ALL_TASKS: "/api/tasks", // Get all tasks (Admin: all, User: only assigned)
