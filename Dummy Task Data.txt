@@ -1,0 +1,24 @@
+Title: Build Product Catalog Module
+Desc: Develop a dynamic product catalog with filtering and sorting features. Ensure the catalog is mobile-responsive and offers seamless navigation, focus on imporving performance and minimizing page load times.
+
+Todo Checklist:
+- Design product card UI
+- Develop category filtering logic
+- Implement sorting by price and rating
+- Add pagination for improved performance
+- Optimize product image loading
+- Implement search functionality
+- Create product detail page
+- Develop related products section
+- Ensure accessibility compliance
+- Conduct performance testing
+
+Title: Create Marketing Email Templates
+Desc: Design engaging and visually appealing email templates for marketing campaigns Ensure templates are compatible across major email clients. Add dynamic content sections for personalized emails.
+
+Todo Checklist:
+- Design template for product launches
+- Design template for promotional offers
+- Add dynamic name placeholders
+- Create a newsletter template
+- Ensure mobile responsiveness
