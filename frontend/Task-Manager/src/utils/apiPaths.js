@@ -23,6 +23,7 @@ export const API_PATHS = {
     CREATE_TASK: "/api/tasks", // Create a new task (Admin only)
     UPDATE_TASK: (taskId) => `/api/tasks/${taskId}`, // Update task details
     DELETE_TASK: (taskId) => `/api/tasks/${taskId}`, // Delete a task (Admin only)
+    UPDATE_TODO_CHECKLIST: (taskId) => `/api/tasks/${taskId}/todo`, // Update task checklist
   },
 
   REPORTS: {
