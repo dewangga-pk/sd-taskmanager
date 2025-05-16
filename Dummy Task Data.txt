@@ -22,3 +22,25 @@ Todo Checklist:
 - Add dynamic name placeholders
 - Create a newsletter template
 - Ensure mobile responsiveness
+
+Title: Implement Inventory Management System
+Desc: Develop a centralized inventory management system with stock updates, low-stock alerts, and inventory reporting. Integrate it with the existing POS System.
+Todo Checklist:
+- Design inventory data model
+- Develop stock update API
+- Implement low-stock alert feature
+- Create inventory report generation tool
+- Add bulk import functionality
+- Integrate POS system
+- Develop product batch tracking system
+
+Title: Design Social Media Grahpics
+Desc: Create visually engaging graphics for social media campaign. Maintain consistent branding and ensure graphics are optimized for multiple platforms.
+Todo Checklist:
+- Design Facebook post templates
+- Design Instagram story graphics
+- Create Youtube thumbnail templates
+- Develop LinkedIn banner designs
+- Optimize image resolutions
+- Ensure designs align with branding
+
