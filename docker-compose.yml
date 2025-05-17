@@ -1,0 +1,46 @@
+services:
+  frontend:
+    build:
+      context: frontend/Task-Manager
+    ports:
+      - 3000:3000
+    restart: always
+    networks:
+      - react-express
+    depends_on:
+      - backend
+
+  backend:
+    restart: always
+    build:
+      context: backend
+    depends_on:
+      - mongo
+    networks:
+      - express-mongo
+      - react-express
+    ports: 
+      - 8000:8000
+    environment:
+      MONGO_URI: mongodb://root:example@mongo:27017/
+      PORT: 8000
+      JWT_SECRET: 95194c701b18b53431c41918f3710fdc21024968cc36f9c89cb938397fd29ce3f967e1ea0711ca3a9f1f345e7f04107989641ec401b52a3689fb30585ad01342
+      ADMIN_INVITE_TOKEN: 4588944
+  mongo:
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - express-mongo
+    expose:
+      - 27017
+networks:
+  react-express:
+  express-mongo:
+
+volumes:
+  mongo_data:
