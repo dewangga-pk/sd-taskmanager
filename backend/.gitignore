@@ -25,4 +25,3 @@ dist-ssr
 
 #project env
 .env
-uploads/*
